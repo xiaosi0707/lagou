@@ -1,0 +1,11 @@
+<div ng-controller="positionCtrl">
+    <div app-head-bar title="职位详情"></div>
+    <div app-position-info position="position" is-login="isLogin"></div>
+    <div app-company company="position"></div>
+    <div class="company-other" ng-bind="position.description">
+        <!--<h4>职位描述</h4>-->
+        <!--<p>岗位职责：</p>-->
+        <!--<p>1、销售产品</p>-->
+    </div>
+    <a href="" class="send" ng-bind="isLogin ? '投个简历' : '去登录'"></a>
+</div>

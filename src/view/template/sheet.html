@@ -1,0 +1,6 @@
+<div class="sheet" ng-show="visible" ng-click="visible=false">
+    <ul>
+        <li ng-repeat="item in list" ng-click="select(item)">{{ item.name }}</li>
+        <a ng-click="visible=false">取消</a>
+    </ul>
+</div>

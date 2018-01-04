@@ -1,0 +1,18 @@
+<div class="position-info">
+    <dl>
+        <dt>
+        <p>
+            <span>{{ position.name }}{{ isLogin }}：</span> <mark>{{ position.salaryName }}</mark>
+        </p>
+        <p>
+            <span>{{ position.cityName }}：</span> {{ position.experience }} {{ position.education }}
+        </p>
+        <p>
+            {{ position.benefit }}
+        </p>
+        </dt>
+        <dd>
+            <img ng-show="isLogin" ng-src="{{ imgPath }}" alt="">
+        </dd>
+    </dl>
+</div>

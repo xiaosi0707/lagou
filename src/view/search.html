@@ -1,0 +1,11 @@
+<div ng-controller="searchCtrl">
+    <header class="search-bar">
+        <span>取消</span>
+        <input type="text" placeholder="搜索职位或公司" ng-model="name">
+        <a href="" ng-click="search()">搜索</a>
+    </header>
+    <div app-tab tab-data='tabList' tab-click="tClick(id,name)"></div>
+    <div app-position-list data="list" filter-obj="filterObj"></div>
+    <div app-footer></div>
+    <div app-sheet list = 'sheet.list' visible="sheet.visible" select="sClick(id, name)"></div>
+</div>

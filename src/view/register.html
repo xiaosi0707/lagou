@@ -1,0 +1,18 @@
+<div class="register" ng-controller="Register">
+    <form action="" name="form">
+        <ul>
+            <li>
+                <input type="text" placeholder="已验证手机/邮箱" ng-model="user.phone" validator="phone" maxlength="11">
+            </li>
+            <li>
+                <input type="password" placeholder="密码" ng-model="user.password" validator="password">
+            </li>
+            <li>
+                <input type="text" placeholder="短信验证码" ng-model="user.code"><button ng-click="time ? false :send()">{{ time? time: '获取验证码' }}</button>
+            </li>
+        </ul>
+        <button class="login-btn" ui-sref="login">登录</button>
+        <div>还没账号？</div>
+        <button class="reg-btn" validation-submit="form" ng-click="submit()">注册</button>
+    </form>
+</div>

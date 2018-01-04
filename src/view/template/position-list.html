@@ -1,0 +1,36 @@
+<div>
+    <!--<section class="list">-->
+        <!--<dl>-->
+            <!--<dt>-->
+                <!--<img src="https://static.lagou.com/image1/M00/00/03/CgYXBlTUV_qALGv0AABEuOJDipU378.jpg" alt="">-->
+            <!--</dt>-->
+            <!--<dd>-->
+                <!--<div>-->
+                    <!--<h3>腾讯</h3>-->
+                    <!--<span>动效视觉设计师</span>-->
+                    <!--<time>今天15:39</time>-->
+                    <!--<u>17k-34k</u>-->
+                <!--</div>-->
+
+            <!--</dd>-->
+        <!--</dl>-->
+    <!--</section>-->
+    <section class="list" ng-repeat="item in data | filterPosition:filterObj" ui-sref="position({id:item.id})">
+        <dl>
+            <dt>
+                <img ng-src="{{ item.imageUrl }}" alt="">
+            </dt>
+            <dd>
+                <div>
+                    <h3>{{ item.companyName }}</h3>
+                    <span>{{ item.job + '[' + item.cityName + ']' }}</span>
+                    <span>{{ item.scaleName }}</span>
+                    <time>{{ item.date }}</time>
+                    <u>{{ item.salaryName }}</u>
+                </div>
+
+            </dd>
+        </dl>
+    </section>
+
+</div>
