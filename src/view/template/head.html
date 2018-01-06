@@ -1,10 +1,10 @@
 <div>
-<div class="head-wrap">
-    <section class="head">10秒定制职位</section>
-    <section class="head-sub">
-        <span>10秒钟定制职位</span>
-        <a href="">去登录</a>
-    </section>
-</div>
-
+    <div class="head-wrap">
+        <section class="head">10秒定制职位</section>
+        <section class="head-sub">
+            <span>10秒钟定制职位</span>
+            <a ui-sref="login" ng-hide="name">去登录</a>
+            <a ng-show="name">你好,{{ name }}</a>
+        </section>
+    </div>
 </div>

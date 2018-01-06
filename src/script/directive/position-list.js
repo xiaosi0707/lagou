@@ -10,7 +10,8 @@ angular.module('app').directive('appPositionList', function () {
         templateUrl: 'view/template/position-list.html',
         scope: {
             data: '=',
-            filterObj: '='
+            filterObj: '=',
+            isFavorite: '='
         }
     }
 });

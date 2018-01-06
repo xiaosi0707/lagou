@@ -7,5 +7,6 @@
         <!--<p>岗位职责：</p>-->
         <!--<p>1、销售产品</p>-->
     </div>
-    <a href="" class="send" ng-bind="isLogin ? '投个简历' : '去登录'"></a>
+    <a href="" class="send" ng-click="sendMsg !== '已投递' ? go() : false" ng-show="isLogin" ng-style="{'background': sendMsg === '已投递' ? '#ccc' : ''}">{{ sendMsg }}</a>
+    <a href="" class="send" ui-sref="login"  ng-hide="isLogin">去登录</a>
 </div>

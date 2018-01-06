@@ -2,7 +2,7 @@
  * Created by wyunfei on 2018/1/4.
  */
 'use strict';
-angular.module('app').controller('Post', ['$scope', function ($scope) {
+angular.module('app').controller('Post', ['$scope', '$http', function ($scope, $http) {
     $scope.tabList = [
         {
             id: 'all',
@@ -16,5 +16,23 @@ angular.module('app').controller('Post', ['$scope', function ($scope) {
             id: 'fail',
             name: '不合适'
         }
-    ]
+    ];
+    $http.get('../../data/myPost.json').then(function (res) {
+        console.log(res);
+        $scope.postList = res.data;
+    });
+    $scope.filterObj = {};
+    $scope.tClick = function (id, name) {
+        switch(id) {
+            case 'all':
+                delete $scope.filterObj.state;
+                break;
+            case 'pass':
+                $scope.filterObj.state = '1';
+                break;
+            case 'fail':
+                $scope.filterObj.state = '-1';
+                break;
+        }
+    }
 }]);

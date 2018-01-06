@@ -1,4 +1,5 @@
 <div ng-controller="Post">
     <div app-head-bar title="投递记录"></div>
-    <div app-tab tab-data="tabList"></div>
+    <div app-tab tab-data="tabList" tab-click="tClick(id, name)"></div>
+    <div app-position-list data="postList" filter-obj="filterObj" ></div>
 </div>

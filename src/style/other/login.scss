@@ -12,11 +12,20 @@
 
     li {
       border-bottom: 1px #f7f7f7 solid;
+      position: relative;
       input {
         display: inline-block;
         width: 100%;
         height: rem(120);
         border: 0;
+        text-indent: rem(24);
+      }
+      p {
+        position: absolute;
+        right: rem(24);
+        top:rem(42);
+
+        color: red;
         text-indent: rem(24);
       }
     }
@@ -31,7 +40,7 @@
     text-align: center;
     border-radius: 3px;
   }
-  p {
+  div {
     width: 90%;
     margin: 0 auto;
     color: white;

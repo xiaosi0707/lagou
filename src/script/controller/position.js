@@ -3,8 +3,10 @@
  */
 'use strict';
 
-angular.module('app').controller('positionCtrl',['$q',  '$scope', '$state', '$http', function ($q, $scope, $state, $http) {
+angular.module('app').controller('positionCtrl',['$q',  '$scope', '$state', '$http', 'cache', function ($q, $scope, $state, $http, cache) {
     $scope.isLogin = false;
+    $scope.isLogin = cache.get('name');
+    $scope.sendMsg = '投个简历';
     // console.log($state);
     function getPosition() {
       var def = $q.defer();
@@ -21,11 +23,16 @@ angular.module('app').controller('positionCtrl',['$q',  '$scope', '$state', '$ht
             def.resolve(res);
         });
     }
-    
+
     getPosition().then(function (obj) {
         console.log(obj);
     },function () {
-        
-    })
+
+    });
+
+    $scope.go = function () {
+            alert('投递成功！');
+        $scope.sendMsg = '已投递';
+    }
 
 }]);

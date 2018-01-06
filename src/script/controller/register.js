@@ -2,9 +2,11 @@
  * Created by wyunfei on 2018/1/4.
  */
 'use strict';
-angular.module('app').controller('Register', ['$scope', '$http', '$interval', function ($scope, $http, $interval) {
+angular.module('app').controller('Register', ['$scope', '$http', '$interval', '$state', function ($scope, $http, $interval, $state) {
     $scope.submit = function () {
-        console.log($scope.user);
+        $http.post('../../data/regist.json', $scope.user).success(function (res) {
+            $state.go('login');
+        });
     };
 
     $scope.send = function () {

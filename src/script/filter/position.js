@@ -4,7 +4,6 @@
 'use strict';
 angular.module('app').filter('filterPosition', function () {
     return function (list, obj) {
-        console.log(obj);
         var result = [];
         // console.log(list,obj);
         angular.forEach(list, function (item) {

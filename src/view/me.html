@@ -1,14 +1,19 @@
 <div class="me" ng-controller="Me">
+    <div ng-if="name">
     <section>
-        <img src="https://avatars2.githubusercontent.com/u/21288681?s=40&v=4" alt=""><br />
-        <span>小四</span>
+        <img ng-src="{{ image }}" alt=""><br />
+        <span>{{ name }}</span>
     </section>
     <section>
         <p ui-sref="post">投递</p>
         <p ui-sref="favorite">收藏</p>
     </section>
     <section>
-        <button>退出登录</button>
+        <button ng-click="logout()">退出登录</button>
     </section>
+    </div>
+    <div ng-hide="name">
+        <button ui-sref="login" class="go-login">去登录</button>
+    </div>
 </div>
 <div app-footer></div>

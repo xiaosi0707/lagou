@@ -12,11 +12,13 @@
     position: relative;
     li {
       border-bottom: 1px #f7f7f7 solid;
-      span {
-        display: inline-block;
-        width: 90%;
+      position: relative;
+
+      p {
+        position: absolute;
+        top: rem(42);
+        right:rem(24);
         color: red;
-        margin: 0 auto;
       }
       input {
         display: inline-block;
