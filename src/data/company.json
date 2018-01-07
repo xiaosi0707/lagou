@@ -1,6 +1,7 @@
-{
+[
+  {
     "id": "c1",
-  "imageUrl": "//static.lagou.com/i/image/M00/7D/D7/CgqKkVhIy6mAWdXiAAAuG0CkxhU755.png",
+    "imageUrl": "//static.lagou.com/i/image/M00/7D/D7/CgqKkVhIy6mAWdXiAAAuG0CkxhU755.png",
     "companyName": "饿了么",
     "industryName": "移动互联网",
     "state": "A轮",
@@ -24,4 +25,114 @@
         "salary": "25k以上"
       }]
     }]
-}
+  },
+  {
+    "id": "c1",
+    "imageUrl": "//static.lagou.com/i/image/M00/00/ED/CgqKkVZbw3eAS5NKAAAptNglgQY659.jpg",
+    "companyName": "知乎",
+    "industryName": "移动互联网",
+    "state": "A轮",
+    "scaleName": "100-500人",
+    "positionClass": [{
+      "id": "jishu",
+      "name": "技术",
+      "positionList": [{
+        "id": "p1",
+        "name": "IOS前端工程师",
+        "createdDate": "2016-04-16 23:30",
+        "salary": "15k-25k"
+      }]
+    }, {
+      "id": "yunying",
+      "name": "运营",
+      "positionList": [{
+        "id": "y1",
+        "name": "运营总监",
+        "createdDate": "2016-04-10 13:30",
+        "salary": "25k以上"
+      }]
+    }]
+  },
+  {
+    "id": "c1",
+    "imageUrl": "//static.lagou.com/image1/M00/10/5B/CgYXBlT-quOAC81GAABTRbCEyH0698.png",
+    "companyName": "喜马拉雅",
+    "industryName": "互联网",
+    "state": "A轮",
+    "scaleName": "50-150人",
+    "positionClass": [{
+      "id": "jishu",
+      "name": "技术",
+      "positionList": [{
+        "id": "p1",
+        "name": "IOS前端工程师",
+        "createdDate": "2016-04-16 23:30",
+        "salary": "15k-25k"
+      }]
+    }, {
+      "id": "yunying",
+      "name": "运营",
+      "positionList": [{
+        "id": "y1",
+        "name": "运营总监",
+        "createdDate": "2016-04-10 13:30",
+        "salary": "25k以上"
+      }]
+    }]
+  },
+  {
+    "id": "c1",
+    "imageUrl": "//static.lagou.com/i/image/M00/4E/F3/Cgp3O1etThWASFAWAAAW8eQEc9I253.png",
+    "companyName": "猫眼电影",
+    "industryName": "移动互联网",
+    "state": "A轮",
+    "scaleName": "500人以上",
+    "positionClass": [{
+      "id": "jishu",
+      "name": "技术",
+      "positionList": [{
+        "id": "p1",
+        "name": "IOS前端工程师",
+        "createdDate": "2016-04-16 23:30",
+        "salary": "15k-25k"
+      }]
+    }, {
+      "id": "yunying",
+      "name": "运营",
+      "positionList": [{
+        "id": "y1",
+        "name": "运营总监",
+        "createdDate": "2016-04-10 13:30",
+        "salary": "25k以上"
+      }]
+    }]
+  },
+  {
+    "id": "c1",
+    "imageUrl": "//static.lagou.com/image1/M00/00/02/CgYXBlTUV_SAC4JmAABlUkwC7D0180.png",
+    "companyName": "墨迹天气",
+    "industryName": "移动互联网",
+    "state": "A轮",
+    "scaleName": "100-500人",
+    "positionClass": [{
+      "id": "jishu",
+      "name": "技术",
+      "positionList": [{
+        "id": "p1",
+        "name": "IOS前端工程师",
+        "createdDate": "2016-04-16 23:30",
+        "salary": "15k-25k"
+      }]
+    }, {
+      "id": "yunying",
+      "name": "运营",
+      "positionList": [{
+        "id": "y1",
+        "name": "运营总监",
+        "createdDate": "2016-04-10 13:30",
+        "salary": "25k以上"
+      }]
+    }]
+  }
+
+]

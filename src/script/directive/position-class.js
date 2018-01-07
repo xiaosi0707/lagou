@@ -12,7 +12,6 @@ angular.module('app').directive('appPositionClass', function () {
        },
        templateUrl: 'view/template/position-class.html',
        link:function ($scope) {
-           console.log($scope);
            $scope.showPositionInfo = function (idx) {
                $scope.positionList = $scope.comPosition.positionClass[idx].positionList;
                $scope.isActive = idx;

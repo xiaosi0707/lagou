@@ -11,7 +11,7 @@ angular.module('app').config(['$stateProvider', '$urlRouterProvider', function (
             templateUrl: 'view/position.html'
         })
         .state('company', {
-            url: '/company',
+            url: '/company/:id',
             templateUrl: 'view/company.html'
         })
         .state('search', {

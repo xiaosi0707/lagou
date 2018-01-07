@@ -1,6 +1,6 @@
 <div class="position-class">
     <h4>职位分类</h4>
-    <button class="{{$index === 0 ? 'active' : '' }}" ng-repeat="item in comPosition.positionClass" ng-click="showPositionInfo($index)">{{ item.name }}</button>
+    <button class="{{$index === isActive ? 'active' : '' }}" ng-repeat="item in comPosition.positionClass" ng-click="showPositionInfo($index)">{{ item.name }}</button>
     <ul>
         <li ng-repeat="item in positionList">
             <p>{{ item.name }}</p>

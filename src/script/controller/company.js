@@ -3,9 +3,10 @@
  */
 'use strict';
 
-angular.module('app').controller('companyCtrl',['$scope', '$http', function ($scope, $http) {
+angular.module('app').controller('companyCtrl',['$scope', '$http', '$state', function ($scope, $http, $state) {
     $http.get('../../data/company.json').then(function (res) {
-        $scope.company = res.data;
+        var id = $state.params.id;
+        $scope.company = res.data[id];
         // 向下广播
         $scope.$broadcast('abc', {id: 1});
     });

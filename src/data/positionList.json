@@ -1,5 +1,5 @@
 [{
-    "id": "p3",
+    "id": "0",
     "imageUrl": "//static.lagou.com/i/image/M00/7D/D7/CgqKkVhIy6mAWdXiAAAuG0CkxhU755.png",
     "job": "销售",
     "companyId": "c3",
@@ -18,7 +18,7 @@
     "description": "岗位职责：\n1.销售产品；...",
     "date": "2016-06-01 11:05"
   }, {
-    "id": "p4",
+    "id": "1",
     "imageUrl": "//static.lagou.com/i/image/M00/00/ED/CgqKkVZbw3eAS5NKAAAptNglgQY659.jpg",
     "job": "后端研发工程师",
     "companyId": "c3",
@@ -37,7 +37,7 @@
     "description": "岗位职责：\n1.制定运营可行的方案；...",
     "date": "2016-05-01 11:05"
   }, {
-    "id": "p1",
+    "id": "2",
     "imageUrl": "//static.lagou.com/image1/M00/10/5B/CgYXBlT-quOAC81GAABTRbCEyH0698.png",
     "job": "AI产品总监",
     "companyId": "c1",
@@ -56,7 +56,7 @@
     "description": "岗位职责：\n1.用户粘度商业价值；...",
     "date": "2016-06-01 01:05"
   }, {
-    "id": "p2",
+    "id": "3",
     "imageUrl": "//static.lagou.com/i/image/M00/4E/F3/Cgp3O1etThWASFAWAAAW8eQEc9I253.png",
     "job": "高级产品经理",
     "companyId": "c2",
@@ -76,7 +76,7 @@
     "date": "2016-06-01 01:05"
   },
   {
-    "id": "p2",
+    "id": "4",
     "imageUrl": "//static.lagou.com/image1/M00/00/02/CgYXBlTUV_SAC4JmAABlUkwC7D0180.png",
     "job": "销售运营专员",
     "companyId": "c2",

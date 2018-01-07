@@ -1,5 +1,5 @@
 [{
-  "id": "p2",
+  "id": "3",
   "imageUrl": "//static.lagou.com/i/image/M00/4E/F3/Cgp3O1etThWASFAWAAAW8eQEc9I253.png",
   "job": "高级产品经理",
   "companyId": "c2",
@@ -19,7 +19,7 @@
   "date": "2016-06-01 01:05",
   "state": "1"
 }, {
-  "id": "p4",
+  "id": "1",
   "imageUrl": "//static.lagou.com/i/image/M00/00/ED/CgqKkVZbw3eAS5NKAAAptNglgQY659.jpg",
   "job": "后端研发工程师",
   "companyId": "c3",

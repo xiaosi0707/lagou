@@ -18,7 +18,6 @@ angular.module('app').controller('Post', ['$scope', '$http', function ($scope, $
         }
     ];
     $http.get('../../data/myPost.json').then(function (res) {
-        console.log(res);
         $scope.postList = res.data;
     });
     $scope.filterObj = {};
