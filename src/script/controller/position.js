@@ -9,7 +9,6 @@ angular.module('app').controller('positionCtrl',['$q',  '$scope', '$state', '$ht
     $scope.sendMsg = '投个简历';
     // console.log($state);
     $http.get('../data/position.json').then(function (res) {
-       console.log($state);
        var id = $state.params.id;
        $scope.position = res.data[id];
     });

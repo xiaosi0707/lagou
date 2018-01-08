@@ -37,6 +37,10 @@ angular.module('app').config(['$stateProvider', '$urlRouterProvider', function (
         .state('post', {
             url: '/post',
             templateUrl: 'view/post.html'
+        })
+        .state('list', {
+            url: '/list',
+            templateUrl: 'view/news-list.html'
         });
     $urlRouterProvider.otherwise('main');
 }])
